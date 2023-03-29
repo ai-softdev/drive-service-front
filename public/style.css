@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page_wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn__reset {
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.list__reset {
+  list-style: none;
+}
